@@ -28,18 +28,16 @@ End the program.
 ## PROGRAM:
 ```python
 #python program for copying a file
-#developed by:Praveen D
-#registration number:212222240076
+#developed by:Thrikeswar P
+#registration number:212222230162
 with open("sample1.txt", "r") as firstfile:
     with open("sample2.txt", "a") as secondfile:
         for line in firstfile:
             secondfile.write(line)  
 ```
 ### FILE:
-![file](./copy1.png)
+<br>![output](./ex5(c)(a)(p).png)
 ### OUTPUT:
-![output](./copy2.png)
-
-
+<br>![output](./ex5(c)(b)(p).png)
 ## RESULT:
 Thus the program is written to copy the contents from one file to another file.
